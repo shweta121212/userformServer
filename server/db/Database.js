@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connectDatabase = () => {
   mongoose
-    .connect("mongodb://127.0.0.1:27017/Form", {
+    .connect("mongodb+srv://shwetarathore0105:shweta1234@cluster0.klnwtob.mongodb.net/?retryWrites=true&w=majority", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
